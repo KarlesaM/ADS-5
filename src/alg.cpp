@@ -3,8 +3,6 @@
 #include "tstack.h"
 
 std::string infx2pstfx(std::string inf) {
-  // добавьте код
-  return std::string("");
 int prioritet(char dey) {
 switch (dey) {
   case '(': return 0;
@@ -75,8 +73,6 @@ std::string infx2pstfx(std::string inf) {
   }
 
 int eval(std::string pref) {
-  // добавьте код
-  return 0;
 TStack <int, 100> kon_stack;
 int o = 0;
 int p = 0;
