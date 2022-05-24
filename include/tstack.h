@@ -1,3 +1,5 @@
+// Copyright 2021 NNTU-CS
+
 template<typename T, int size>
 class TStack {
  private:
