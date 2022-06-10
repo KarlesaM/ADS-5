@@ -13,8 +13,6 @@ int prior(char total) {
 }
 
 std::string infx2pstfx(std::string inf) {
-  // добавьте код
-  return std::string("");
     std::string result = "";
     TStack<char, 100> st;
     for (int a = 0; a < inf.length(); a++) {
@@ -61,9 +59,6 @@ int charConv(char b) {
     }
 }
 
-int eval(std::string pref) {
-  // добавьте код
-  return 0;
 int eval(std::string post) {
     std::string post1 = post;
     int count = 0;
